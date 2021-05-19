@@ -1,4 +1,4 @@
-function [a_par,b_par,d_par,num,U] = TiaoHeQushimian_func(A,B1,M,N,CL,newfolder)
+function [a_par,b_par,d_par,num,U] = Main_func(A,B1,M,N,CL,newfolder)
 
 [i,j] = size(A);    
 [m,n] = size(B1);    
