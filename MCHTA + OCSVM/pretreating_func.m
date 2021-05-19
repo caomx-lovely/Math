@@ -1,4 +1,4 @@
-function new_data = geochemistral_data_pretreating_func(data,type)
+function new_data = pretreating_func(data,type)
 
 switch type
     
