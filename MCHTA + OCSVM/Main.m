@@ -23,4 +23,4 @@ A = geochemistral_data_pretreating_func(A0,type_A1);
 
 B1 = sin_cos(B,M,N);
 
-[a_par,b_par,d_par] = TiaoHeQushimian_func(A,B1,M,N,CL,newfolder);
+[a_par,b_par,d_par] = Main_func(A,B1,M,N,CL,newfolder);
