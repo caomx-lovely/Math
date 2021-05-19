@@ -1,4 +1,4 @@
-function [new_xy,opts] = xy_data_pretreating_func(xy,type1,type2,opts)
+function [new_xy,opts] = xy_pretreating_func(xy,type1,type2,opts)
 
 flag = 0;
 if exist('opts','var')
