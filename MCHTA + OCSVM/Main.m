@@ -17,9 +17,9 @@ N = 2;
 
 CL = 0.01;    
 
-B = xy_data_pretreating_func(B0,type0,type_B1);
+B = xy_pretreating_func(B0,type0,type_B1);
 
-A = geochemistral_data_pretreating_func(A0,type_A1);
+A = pretreating_func(A0,type_A1);
 
 B1 = sin_cos(B,M,N);
 
